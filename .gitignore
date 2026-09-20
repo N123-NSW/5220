@@ -1,0 +1,32 @@
+# CodeBuddy 项目数据
+.codebuddy/
+
+# Keil MDK 编译输出目录
+MDK-ARM/Encoder_Project/
+MDK-ARM/DebugConfig/
+
+# Keil 自动生成的 CMSIS 缓存（与 Drivers/CMSIS 重复）
+MDK-ARM/.cmsis/
+
+# Keil 用户相关（布局/选项/调试）
+*.uvguix.*
+*.uvoptx
+*.scvd
+JLinkLog.txt
+JLinkSettings.ini
+
+# 编译中间产物
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.htm
+*.lst
+*.map
+*.lnp
+*.plg
+*.dep
+*.iex
+*.sct
